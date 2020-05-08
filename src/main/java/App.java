@@ -33,6 +33,13 @@ public class App {
         System.out.print("Side 3:");
         int int3 = side3.nextInt();
 
+        while (int2 > int3) {
+            System.out.println(int2 + " is smaller than " + int1 + ".  Try again.\n");
+            System.out.println("Side 3");
+            int2 = side2.nextInt();
+
+        }
+
 
     }
 
