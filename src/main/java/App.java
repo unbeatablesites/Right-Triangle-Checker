@@ -39,8 +39,14 @@ public class App {
             int3 = side3.nextInt();
 
         }
-
+        System.out.println();
         System.out.println("Your three sides are "+int1+" "+int2+" "+ int3+"\n");
+
+        if(int2 == int3){
+            System.out.println("NO!  These sides do not make a right triangle!\n");
+        }else{
+            System.out.println("These sides *do* make a right triangle.  Yippy-skippy!\n");
+        }
 
     }
 
