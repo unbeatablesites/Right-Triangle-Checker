@@ -11,26 +11,26 @@ public class App {
 
     static void logic(){
 
-        System.out.println("Enter three integers:\n");
+        System.out.println("Enter three integers:");
 
         Scanner side1 = new Scanner(System.in);
         Scanner side2 = new Scanner(System.in);
         Scanner side3 = new Scanner(System.in);
 
-        System.out.print("Side 1:");
+        System.out.print("Side 1: ");
         int int1 = side1.nextInt();
 
-        System.out.print("Side 2:");
+        System.out.print("Side 2: ");
         int int2 = side2.nextInt();
 
         while (int1 > int2) {
-            System.out.println(int2 + " is smaller than " + int1 + ".  Try again.\n");
+            System.out.println(int2 + " is smaller than " + int1 + ".  Try again.");
             System.out.println("Side 2");
             int2 = side2.nextInt();
 
         }
 
-        System.out.print("Side 3:");
+        System.out.print("Side 3 :");
         int int3 = side3.nextInt();
 
         while (int2 >= int3) {
