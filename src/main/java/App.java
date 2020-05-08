@@ -5,6 +5,8 @@ public class App {
 
     public static void main(String[] args) {
 
+        logic();
+
     }
 
     static void logic(){
@@ -19,13 +21,14 @@ public class App {
         int int1 = side1.nextInt();
 
         System.out.print("Side 2:");
-        int int2 = side1.nextInt();
+        int int2 = side2.nextInt();
 
-        while (int1 > int2)
-            System.out.println( int2 + " is smaller than 4.  Try again.\n");
-        System.out.println("Side 2");
-        int2 = side1.nextInt();
+        while (int1 > int2) {
+            System.out.println(int2 + " is smaller than " + int1 + ".  Try again.\n");
+            System.out.println("Side 2");
+            int2 = side2.nextInt();
 
+        }
 
     }
 
