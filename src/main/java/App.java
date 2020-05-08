@@ -40,7 +40,7 @@ public class App {
 
         }
         System.out.println();
-        System.out.println("Your three sides are "+int1+" "+int2+" "+ int3+"\n");
+        System.out.println("Your three sides are "+int1+" "+int2+" "+ int3);
 
         if(int2 == int3){
             System.out.println("NO!  These sides do not make a right triangle!\n");
