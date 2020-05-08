@@ -25,7 +25,7 @@ public class App {
 
         while (int1 > int2) {
             System.out.println(int2 + " is smaller than " + int1 + ".  Try again.");
-            System.out.println("Side 2");
+            System.out.println("Side 2: ");
             int2 = side2.nextInt();
 
         }
