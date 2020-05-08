@@ -40,6 +40,7 @@ public class App {
 
         }
 
+        System.out.println("Your three sides are "+int1+" "+int2+" "+ int3+"\n");
 
     }
 
