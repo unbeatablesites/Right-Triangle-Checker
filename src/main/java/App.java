@@ -30,6 +30,10 @@ public class App {
 
         }
 
+        System.out.print("Side 3:");
+        int int3 = side3.nextInt();
+
+
     }
 
 }
