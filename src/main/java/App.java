@@ -35,7 +35,7 @@ public class App {
 
         while (int2 >= int3) {
             System.out.println(int3 + " is smaller than " + int2 + ".  Try again.\n");
-            System.out.println("Side 3");
+            System.out.print("Side 3: ");
             int3 = side3.nextInt();
 
         }
